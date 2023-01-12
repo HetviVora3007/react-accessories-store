@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.homepage-container {
+    width: 100%;
+    background-image: url('../../Assests/ea71bb_f6afb11f2c8f406ca1c8993c2eca99e7_mv2_d_11495_6131_s_4_2.jpg');
+}
+
+.homepage-content {
+    width: 100%;
+    height: 620px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5555;
+}
+
+.homepage-img-content {
+    width: 50%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.img-content {
+    font-size: 60px;
+    color: white;
+}
+
+
+.homepage-link {
+    width: 100%;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 3px;
+    transition: 0.3s;
+    border: 1px solid white;
+    color: white;
+}
+
+.homepage-link:hover {
+    color: #bc4c2a;
+    background-color: white;
+}
+
+
+.best-sallers {
+    width: 100%;
+    height: 800%;
+    background-color: #bc4c2a;
+}
+
+.best-sallers-title {
+    width: 100%;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
