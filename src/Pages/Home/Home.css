@@ -1,7 +1,9 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 
 .homepage-container {
     width: 100%;
@@ -50,15 +52,395 @@
 
 .best-sallers {
     width: 100%;
-    height: 800%;
-    background-color: #bc4c2a;
+    height: 800px;
 }
 
 .best-sallers-title {
     width: 100%;
-    height: 190px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+}
+
+.line {
+    width: 1.5%;
+    height: 1.5px;
+    margin-top: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 35px;
+}
+
+.line hr {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.best-sellers-slider {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.best-sellers-carousel {
+    width: 85%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    width: 85%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-two {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-card-product {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.about-card-product p {
+    margin-top: 10px;
+}
+
+.para {
+    color: #bc4c2a;
+}
+
+.best-sallers-button {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shopall-button {
+    width: 16%;
+    height: 38%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #bc4c2a;
+}
+
+.best-sallers-button :hover {
+    transform: scale(1.04);
+    transition: 0.4s;
+}
+
+.shopall-button-link {
+    text-decoration: none;
+    font-size: 17px;
+    color: #bc4c2a;
+}
+
+.space {
+    width: 100%;
+    height: 150px;
+}
+
+.imagediv-containet {
+    width: 100%;
+    height: 1300px;
+}
+
+.mini-leather-goods,
+.leather-belts {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-minileather-goods,
+.right-leather-belts {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f6ef;
+}
+
+.minileather-goods-img,
+.leather-belts-img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.minileather-goods-img img,
+.leather-belts-img img {
+    width: 60%;
+    height: 45%;
+}
+
+.minileather-goods-content,
+.leather-belts-content {
+    width: 50%;
+    height: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+
+.minileather-goods-price,
+.leather-belts-price {
+    color: #bc4c2a;
+}
+
+.right-minileather-goods {
+    width: 50%;
+    height: 100%;
+    background-image: url('/src/Assests/minileathergoodsrightimg.jpg');
+}
+
+.minileather-goods-link-container,
+.leather-belts-link-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(121, 115, 115, 0.333);
+}
+
+.minileather-goods-link,
+.leather-belts-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+}
+
+.left-leather-belts {
+    width: 50%;
+    height: 100%;
+    background-image: url('/src/Assests/leatherbeltsleftimg.png');
+}
+
+.about-container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.brand-container {
+    width: 25%;
+    height: 75%;
+    background-image: url('/src/Assests/brandcontainerimg.png');
+    background-size: cover;
+}
+
+.brand-card,
+.product-card,
+.usa-card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(33, 31, 31, 0.333);
+}
+
+.card-container {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand,
+.products,
+.usa {
+    font-size: 28px;
+}
+
+.brand-container-link,
+.products-container-link,
+.usa-container-link {
+    font-size: 15px;
+    color: white;
+}
+
+.brand-container-content,
+.products-container-content,
+.usa-container-content {
+    width: 100%;
+    height: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 17px;
+}
+
+.horizontal-line {
+    width: 5%;
+    height: 4%;
+    margin-top: 5px;
+    background-color: white;
+}
+
+.products-container {
+    width: 25%;
+    height: 75%;
+    background-image: url('/src/Assests/productcontainerimg.png');
+    background-size: cover;
+}
+
+.usa-container {
+    width: 25%;
+    height: 75%;
+    background-image: url('/src/Assests/usacontainerimg.png');
+    background-size: cover;
+}
+
+.about-instragram {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f6ef;
+}
+
+.about-title {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+}
+
+.insta-account {
+    color: #bc4c2a;
+    font-size: 23px;
+}
+
+.about-slider {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-imgone {
+    width: 20%;
+    height: 100%;
+    background-image: url('/src/Assests/aboutsliderimgone.jpg');
+    background-size: cover;
+}
+
+.slider-imgtwo {
+    width: 20%;
+    height: 100%;
+    background-image: url('/src/Assests/aboutsliderimgtwo.jpg');
+    background-size: cover;
+}
+
+.slider-imgthree {
+    width: 20%;
+    height: 100%;
+    background-image: url('/src/Assests/aboutsliderimgthree.jpg');
+    background-size: cover;
+}
+
+.slider-imgfour {
+    width: 20%;
+    height: 100%;
+    background-image: url('/src/Assests/aboutsliderimgfour.jpg');
+    background-size: cover;
+}
+
+.slider-imgfive {
+    width: 20%;
+    height: 100%;
+    background-image: url('/src/Assests/aboutsliderimgfive.jpg');
+    background-size: cover;
+}
+
+.about-info {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #f3f6ef;
+}
+
+.about-Worldwide-shipping,
+.about-return-days,
+.about-month-warranty {
+    width: 20%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-horizontal-line {
+    width: 6%;
+    height: 3%;
+}
+
+.about-horizontal-line hr {
+    width: 100%;
+    height: 100%;
+    background-color: #bc4c2a;
+}
+
+.about-content {
+    font-size: 25px;
+    color: #bc4c2a;
 }
