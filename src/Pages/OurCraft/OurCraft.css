@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ourcraft-title {
+    margin-top: 10vh;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ourcraft-title p {
+    font-size: 45px;
+}
+
+.craft-img-container {
+    width: 100%;
+    height: 1950px;
+}
+
+.design-img-container,
+.selection-img-container,
+.crastsmanship-img-container {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-design-container,
+.right-selection-container,
+.left-crastsmanship-container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f6ef;
+}
+
+.left-design-content {
+    width: 50%;
+    height: 37%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-selection-content {
+    width: 50%;
+    height: 43%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-crastsmanship-content {
+    width: 50%;
+    height: 37%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-design-content h4,
+.right-selection-content h4,
+.left-crastsmanship-content h4 {
+    font-size: 27px;
+}
+
+.left-design-content p,
+.right-selection-content p,
+.left-crastsmanship-content p {
+    font-size: 15px;
+    color: #6e6c6b;
+}
+
+.horizontal-line-container {
+    width: 4%;
+    height: 0.7%;
+}
+
+.horizontal-line-container hr {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.right-design-img-container {
+    width: 50%;
+    height: 100%;
+    background-image: url('/src/Assests/design.jpg');
+    background-size: cover;
+}
+
+.left-selection-img-container {
+    width: 50%;
+    height: 100%;
+    background-image: url('/src/Assests/selection.jpg');
+    background-size: cover;
+}
+
+.right-crastsmanship-img-container {
+    width: 50%;
+    height: 100%;
+    background-image: url('/src/Assests/craftsmanship.jpg');
+    background-size: cover;
+}
