@@ -115,3 +115,55 @@
     background-image: url('/src/Assests/craftsmanship.jpg');
     background-size: cover;
 }
+
+@media screen and (max-width: 480px) {
+    .craft-img-container {
+        height: 3000px;
+    }
+
+    .design-img-container,
+    .selection-img-container,
+    .crastsmanship-img-container {
+        height: 1000px;
+        flex-direction: column;
+    }
+
+    .left-design-container,
+    .right-selection-container,
+    .left-crastsmanship-container {
+        width: 100%;
+        order: 2;
+    }
+
+    .right-design-img-container {
+        width: 100%;
+    }
+
+    .left-design-content {
+        width: 70%;
+        height: 55%;
+    }
+
+    .horizontal-line-container {
+        width: 7%;
+        height: 0.7%;
+    }
+
+    .left-selection-img-container {
+        width: 110%;
+    }
+
+    .right-selection-content {
+        width: 70%;
+        height: 65%;
+    }
+
+    .right-crastsmanship-img-container {
+        width: 100%;
+    }
+
+    .left-crastsmanship-content {
+        width: 70%;
+        height: 53%;
+    }
+}

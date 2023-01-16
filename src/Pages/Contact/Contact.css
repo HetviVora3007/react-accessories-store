@@ -128,7 +128,7 @@
     color: #6e6c6b;
 }
 
-.space {
+.div-space {
     width: 100%;
     height: 60px;
     background-color: #f3f6ef;
@@ -305,4 +305,74 @@
 
 .stockists-firstrow-cardone p {
     font-size: 14px;
+}
+
+@media screen and (max-width: 480px) {
+
+    .customer-service {
+        width: 70%;
+    }
+
+    .container-horizontal-line {
+        width: 7%;
+    }
+
+    .customer-service-title {
+        height: 200px;
+    }
+
+    .main-time-container {
+        height: 172px;
+    }
+
+    .time-container {
+        width: 90%;
+    }
+
+    .inquiries {
+        height: 170px;
+    }
+
+    .inquiries-container {
+        width: 80%;
+    }
+
+    .form-container {
+        width: 80%;
+    }
+
+    .firstname,
+    .lastname {
+        width: 46%;
+    }
+
+    .message input {
+        width: 84.9%;
+    }
+
+    .submit-button button {
+        width: 53%;
+    }
+
+    .stockists-horizontal-line {
+        width: 7%;
+        height: 0.5%;
+    }
+
+    .stockists-container {
+        width: 90%;
+    }
+
+    .stockists-first-row,
+    .stockists-second-row {
+        height: 120px;
+    }
+
+    .stockists-firstrow-cardone {
+        height: 95%;
+    }
+
+    .stockists {
+        height: 500px;
+    }
 }
