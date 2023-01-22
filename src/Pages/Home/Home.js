@@ -199,7 +199,7 @@ const Home = () => {
                                 <p className='horizontal-line'><hr></hr></p>
                             </div>
                             <div className='brand-container-link'>
-                                <Link className='brand-container-link' to='/ourcraft'>Read our Story</Link>
+                                <Link className='brand-container-link' to='/ourstory'>Read our Story</Link>
                             </div>
                         </div>
                     </div>
