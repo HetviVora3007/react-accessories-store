@@ -1,10 +1,16 @@
 import React from 'react'
+import { useEffect } from 'react'
+
 import Footer from '../../Component/Footer/Footer'
 import Navbar from '../../Component/Navbar/Navbar'
-
 import "./Contact.css"
 
-const contact = () => {
+const Contact = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     return (
         <>
             <div>
@@ -124,4 +130,4 @@ const contact = () => {
     )
 }
 
-export default contact
+export default Contact

@@ -39,13 +39,8 @@
     }
 
     .all-product-container {
-        width: 98%;
+        width: 100%;
         align-items: center;
-    }
-
-    .product-one {
-        width: 96%;
-        height: 335px;
     }
 
     .product-name {

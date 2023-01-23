@@ -42,7 +42,7 @@ import productimgfourty from '../Assests/productimgs/imgfourty.jpg';
 const Data = [
     {
         id: "1",
-        product_name: "i'm a product",
+        product_name: "I'm a product",
         product_price: "$400.00",
         sku: "0001",
         product_img: productimgone,
@@ -53,7 +53,7 @@ const Data = [
     },
     {
         id: "2",
-        product_name: "i'm a product",
+        product_name: "I'm a product",
         product_price: "$400.00",
         sku: "0002",
         product_img: productimgtwo,
@@ -64,7 +64,7 @@ const Data = [
     },
     {
         id: "3",
-        product_name: "i'm a product",
+        product_name: "I'm a product",
         product_price: "$400.00",
         sku: "0003",
         product_img: productimgthree,
@@ -75,7 +75,7 @@ const Data = [
     },
     {
         id: "4",
-        product_name: "i'm a product",
+        product_name: "I'm a product",
         product_price: "$400.00",
         sku: "0004",
         product_img: productimgfour,
@@ -86,7 +86,7 @@ const Data = [
     },
     {
         id: "5",
-        product_name: "i'm a product",
+        product_name: "I'm a product",
         product_price: "$300.00",
         sku: "0005",
         product_img: productimgfive,
@@ -97,7 +97,7 @@ const Data = [
     },
     {
         id: "6",
-        product_name: "i'm a product",
+        product_name: "I'm a product",
         product_price: "$300.00",
         sku: "0006",
         product_img: productimgsix,
@@ -108,7 +108,7 @@ const Data = [
     },
     {
         id: "7",
-        product_name: "i'm a product",
+        product_name: "I'm a product",
         product_price: "$300.00",
         sku: "0007",
         product_img: productimgseven,
@@ -119,7 +119,7 @@ const Data = [
     },
     {
         id: "8",
-        product_name: "i'm a product",
+        product_name: "I'm a product",
         product_price: "$300.00",
         sku: "0008",
         product_img: productimgeight,
@@ -130,7 +130,7 @@ const Data = [
     },
     {
         id: "9",
-        product_name: "i'm a product",
+        product_name: "I'm a product",
         product_price: "$250.00",
         sku: "0009",
         product_img: productimgnine,
@@ -141,7 +141,7 @@ const Data = [
     },
     {
         id: "10",
-        product_name: "i'm a product",
+        product_name: "I'm a product",
         product_price: "$250.00",
         sku: "0010",
         product_img: productimgten,
@@ -152,7 +152,7 @@ const Data = [
     },
     {
         id: "11",
-        product_name: "i'm a product",
+        product_name: "I'm a product",
         product_price: "$250.00",
         sku: "0011",
         product_img: productimgeleven,
@@ -163,7 +163,7 @@ const Data = [
     },
     {
         id: "12",
-        product_name: "i'm a product",
+        product_name: "I'm a product",
         product_price: "$250.00",
         sku: "0012",
         product_img: productimgtwelve,
@@ -174,7 +174,7 @@ const Data = [
     },
     {
         id: "13",
-        product_name: "i'm a product",
+        product_name: "I'm a product",
         product_price: "$150.00",
         sku: "0013",
         product_img: productimgthirteen,
@@ -185,7 +185,7 @@ const Data = [
     },
     {
         id: "14",
-        product_name: "i'm a product",
+        product_name: "I'm a product",
         product_price: "$150.00",
         sku: "0014",
         product_img: productimgfourteen,
@@ -196,7 +196,7 @@ const Data = [
     },
     {
         id: "15",
-        product_name: "i'm a product",
+        product_name: "I'm a product",
         product_price: "$150.00",
         sku: "0015",
         product_img: productimgfifteen,
@@ -207,7 +207,7 @@ const Data = [
     },
     {
         id: "16",
-        product_name: "i'm a product",
+        product_name: "I'm a product",
         product_price: "$150.00",
         sku: "0016",
         product_img: productimgsixteen,
@@ -218,7 +218,7 @@ const Data = [
     },
     {
         id: "17",
-        product_name: "i'm a product",
+        product_name: "I'm a product",
         product_price: "$100.00",
         sku: "0017",
         product_img: productimgseventeen,
@@ -229,7 +229,7 @@ const Data = [
     },
     {
         id: "18",
-        product_name: "i'm a product",
+        product_name: "I'm a product",
         product_price: "$100.00",
         sku: "0018",
         product_img: productimgeighteen,
@@ -240,7 +240,7 @@ const Data = [
     },
     {
         id: "19",
-        product_name: "i'm a product",
+        product_name: "I'm a product",
         product_price: "$100.00",
         sku: "0019",
         product_img: productimgnineteen,
@@ -251,7 +251,7 @@ const Data = [
     },
     {
         id: "20",
-        product_name: "i'm a product",
+        product_name: "I'm a product",
         product_price: "$100.00",
         sku: "0020",
         product_img: productimgtwenty,
@@ -262,7 +262,7 @@ const Data = [
     },
     {
         id: "21",
-        product_name: "i'm a product",
+        product_name: "I'm a product",
         product_price: "$100.00",
         sku: "0021",
         product_img: productimgtwentyone,
@@ -273,7 +273,7 @@ const Data = [
     },
     {
         id: "22",
-        product_name: "i'm a product",
+        product_name: "I'm a product",
         product_price: "$100.00",
         sku: "0022",
         product_img: productimgtwentytwo,
@@ -284,7 +284,7 @@ const Data = [
     },
     {
         id: "23",
-        product_name: "i'm a product",
+        product_name: "I'm a product",
         product_price: "$100.00",
         sku: "0023",
         product_img: productimgtwentythree,
@@ -295,7 +295,7 @@ const Data = [
     },
     {
         id: "24",
-        product_name: "i'm a product",
+        product_name: "I'm a product",
         product_price: "$100.00",
         sku: "0024",
         product_img: productimgtwentyfour,
@@ -306,7 +306,7 @@ const Data = [
     },
     {
         id: "25",
-        product_name: "i'm a product",
+        product_name: "I'm a product",
         product_price: "$50.00",
         sku: "0025",
         product_img: productimgtwentyfive,
@@ -317,7 +317,7 @@ const Data = [
     },
     {
         id: "26",
-        product_name: "i'm a product",
+        product_name: "I'm a product",
         product_price: "$50.00",
         sku: "0026",
         product_img: productimgtwentysix,
@@ -328,7 +328,7 @@ const Data = [
     },
     {
         id: "27",
-        product_name: "i'm a product",
+        product_name: "I'm a product",
         product_price: "$50.00",
         sku: "0027",
         product_img: productimgtwentyseven,
@@ -339,7 +339,7 @@ const Data = [
     },
     {
         id: "28",
-        product_name: "i'm a product",
+        product_name: "I'm a product",
         product_price: "$50.00",
         sku: "0028",
         product_img: productimgtwentyeight,
@@ -350,7 +350,7 @@ const Data = [
     },
     {
         id: "29",
-        product_name: "i'm a product",
+        product_name: "I'm a product",
         product_price: "$50.00",
         sku: "0029",
         product_img: productimgtwentynine,
@@ -361,7 +361,7 @@ const Data = [
     },
     {
         id: "30",
-        product_name: "i'm a product",
+        product_name: "I'm a product",
         product_price: "$50.00",
         sku: "0030",
         product_img: productimgthirty,
@@ -372,7 +372,7 @@ const Data = [
     },
     {
         id: "31",
-        product_name: "i'm a product",
+        product_name: "I'm a product",
         product_price: "$50.00",
         sku: "0031",
         product_img: productimgthirtyone,
@@ -383,7 +383,7 @@ const Data = [
     },
     {
         id: "32",
-        product_name: "i'm a product",
+        product_name: "I'm a product",
         product_price: "$50.00",
         sku: "0032",
         product_img: productimgthirtytwo,
@@ -394,7 +394,7 @@ const Data = [
     },
     {
         id: "33",
-        product_name: "i'm a product",
+        product_name: "I'm a product",
         product_price: "$25.00",
         sku: "0033",
         product_img: productimgthirtythree,
@@ -405,7 +405,7 @@ const Data = [
     },
     {
         id: "34",
-        product_name: "i'm a product",
+        product_name: "I'm a product",
         product_price: "$25.00",
         sku: "00034",
         product_img: productimgthirtyfour,
@@ -416,7 +416,7 @@ const Data = [
     },
     {
         id: "35",
-        product_name: "i'm a product",
+        product_name: "I'm a product",
         product_price: "$25.00",
         sku: "0035",
         product_img: productimgthirtyfive,
@@ -427,7 +427,7 @@ const Data = [
     },
     {
         id: "36",
-        product_name: "i'm a product",
+        product_name: "I'm a product",
         product_price: "$25.00",
         sku: "0036",
         product_img: productimgthirtysix,
@@ -438,7 +438,7 @@ const Data = [
     },
     {
         id: "37",
-        product_name: "i'm a product",
+        product_name: "I'm a product",
         product_price: "$25.00",
         sku: "0037",
         product_img: productimgthirtyseven,
@@ -449,7 +449,7 @@ const Data = [
     },
     {
         id: "38",
-        product_name: "i'm a product",
+        product_name: "I'm a product",
         product_price: "$25.00",
         sku: "0038",
         product_img: productimgthirtyeight,
@@ -460,7 +460,7 @@ const Data = [
     },
     {
         id: "39",
-        product_name: "i'm a product",
+        product_name: "I'm a product",
         product_price: "$25.00",
         sku: "0039",
         product_img: productimgthirtynine,
@@ -471,7 +471,7 @@ const Data = [
     },
     {
         id: "40",
-        product_name: "i'm a product",
+        product_name: "I'm a product",
         product_price: "$25.00",
         sku: "0040",
         product_img: productimgfourty,

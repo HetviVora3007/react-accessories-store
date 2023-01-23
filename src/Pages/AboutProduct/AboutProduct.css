@@ -91,7 +91,7 @@
 }
 
 .product-name {
-    font-size: 28px;
+    font-size: 17px;
 }
 
 .sku {
@@ -214,5 +214,14 @@
 
     .rightside-product-information-container {
         width: 84%;
+    }
+
+    .product-name {
+        font-size: 18px;
+    }
+
+    .product-one {
+        width: 99%;
+        height: 335px;
     }
 }

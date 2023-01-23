@@ -41,7 +41,7 @@ const Footer = () => {
             </div>
 
             <div className='end-footer'>
-                <p>©2035 by adalene. Powered and secured by Wix</p>
+                <p>©2035 by adalene. Powered and secured by Hetvi Vora</p>
             </div>
         </>
     )

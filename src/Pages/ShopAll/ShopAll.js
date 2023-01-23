@@ -1,4 +1,5 @@
 import React from 'react'
+import { useEffect } from 'react'
 
 import Card from '../../Component/Cards/Card'
 import Footer from '../../Component/Footer/Footer'
@@ -7,6 +8,11 @@ import Data from '../../Utils/Data'
 import "./ShopAll.css"
 
 const ShopAll = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     return (
         <>
             <div>

@@ -124,6 +124,7 @@
     font-size: 18px;
 }
 
+
 .about-card-product p {
     margin-top: 10px;
 }
@@ -462,6 +463,17 @@
     .line {
         width: 5%;
         height: 0.5px
+    }
+
+    .card-two {
+        width: 2%;
+    }
+
+    .about-card-product p {
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .shopall-button {

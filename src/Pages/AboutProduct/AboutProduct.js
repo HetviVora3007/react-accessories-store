@@ -16,6 +16,11 @@ const Product = () => {
         const obj = Data.filter(d => Number(d.id) === Number(id))
         setProductData(obj[0])
     }, [])
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     return (
         <>
             <div><Navbar /></div>

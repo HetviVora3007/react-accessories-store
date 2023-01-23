@@ -1,4 +1,5 @@
 import React from 'react'
+import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import Carousel from "react-multi-carousel"
 import "react-multi-carousel/lib/styles.css"
@@ -7,15 +8,25 @@ import "./Home.css"
 import sliderimgone from '../../Assests/sliderimgone.png'
 import sliderimgtwo from '../../Assests/sliderimgtwo.png'
 import sliderimgthird from '../../Assests/sliderimgthird.png'
-import sliderimgfour from '../../Assests/sliderimgfour.png'
 import sliderimgfive from '../../Assests/sliderimgfive.png'
 import sliderimgsix from '../../Assests/sliderimgsix.png'
+import sliderimgseven from '../../Assests/sliderimgseven.jpg'
+import sliderimgeight from '../../Assests/sliderimgeight.jpg'
+import sliderimgnine from '../../Assests/sliderimgnine.jpg'
+import sliderimgten from '../../Assests/sliderimgten.jpg'
+import sliderimgeleven from '../../Assests/sliderimgeleven.jpg'
+import sliderimgthirteen from '../../Assests/sliderimgthirteen.jpg'
 import mimileathergoodsleftimg from '../../Assests/mimileathergoodsleftimg.png'
 import leatherbeltsrightimg from '../../Assests/leatherbeltsrightimg.png'
 import Navbar from '../../Component/Navbar/Navbar'
 import Footer from '../../Component/Footer/Footer'
 
 const Home = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     const responsive = {
         superLargeDesktop: {
             breakpoint: { max: 4000, min: 3000 },
@@ -93,7 +104,7 @@ const Home = () => {
                         <div className='card-two'>
                             <div>
                                 <Link to='/shopall'>
-                                    <img src={sliderimgfour} />
+                                    <img src={sliderimgone} />
                                 </Link>
                             </div>
                             <div className='about-card-product'>
@@ -104,12 +115,56 @@ const Home = () => {
                         <div className='card-two'>
                             <div>
                                 <Link to='/shopall'>
-                                    <img src={sliderimgone} />
+                                    <img src={sliderimgtwo} />
                                 </Link>
                             </div>
                             <div className='about-card-product'>
                                 <p>I'm a Product</p>
                                 <p className='para'>$300.00</p>
+                            </div>
+                        </div>
+                        <div className='card-two'>
+                            <div>
+                                <Link to='/shopall'>
+                                    <img src={sliderimgthird} />
+                                </Link>
+                            </div>
+                            <div className='about-card-product'>
+                                <p>I'm a Product</p>
+                                <p className='para'>$150.00</p>
+                            </div>
+                        </div>
+                        <div className='card-two'>
+                            <div>
+                                <Link to='/shopall'>
+                                    <img src={sliderimgten} />
+                                </Link>
+                            </div>
+                            <div className='about-card-product'>
+                                <p>I'm a Product</p>
+                                <p className='para'>$150.00</p>
+                            </div>
+                        </div>
+                        <div className='card-two'>
+                            <div>
+                                <Link to='/shopall'>
+                                    <img src={sliderimgseven} />
+                                </Link>
+                            </div>
+                            <div className='about-card-product'>
+                                <p>I'm a Product</p>
+                                <p className='para'>$150.00</p>
+                            </div>
+                        </div>
+                        <div className='card-two'>
+                            <div>
+                                <Link to='/shopall'>
+                                    <img className='slider-img' src={sliderimgthirteen} />
+                                </Link>
+                            </div>
+                            <div className='about-card-product'>
+                                <p>I'm a Product</p>
+                                <p className='para'>$400.00</p>
                             </div>
                         </div>
                         <div className='card-two'>
@@ -137,7 +192,29 @@ const Home = () => {
                         <div className='card-two'>
                             <div>
                                 <Link to='/shopall'>
-                                    <img src={sliderimgthird} />
+                                    <img src={sliderimgeleven} />
+                                </Link>
+                            </div>
+                            <div className='about-card-product'>
+                                <p>I'm a Product</p>
+                                <p className='para'>$150.00</p>
+                            </div>
+                        </div>
+                        <div className='card-two'>
+                            <div>
+                                <Link to='/shopall'>
+                                    <img src={sliderimgnine} />
+                                </Link>
+                            </div>
+                            <div className='about-card-product'>
+                                <p>I'm a Product</p>
+                                <p className='para'>$150.00</p>
+                            </div>
+                        </div>
+                        <div className='card-two'>
+                            <div>
+                                <Link to='/shopall'>
+                                    <img src={sliderimgeight} />
                                 </Link>
                             </div>
                             <div className='about-card-product'>

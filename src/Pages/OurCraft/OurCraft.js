@@ -1,10 +1,16 @@
 import React from 'react'
+import { useEffect } from 'react'
+
 import Footer from '../../Component/Footer/Footer'
 import Navbar from '../../Component/Navbar/Navbar'
-
 import "./OurCraft.css"
 
 const OurCraft = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     return (
         <>
             <div>
