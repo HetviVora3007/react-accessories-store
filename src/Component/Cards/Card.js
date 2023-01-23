@@ -6,7 +6,6 @@ import "./Card.css"
 const Card = (props) => {
     return (
         <div>
-
             <div className='product-one'>
                 <div className='product-img-container'>
                     <Link to={`/aboutproduct/${props.Data.id}`}><img src={props.Data.product_img} /></Link>

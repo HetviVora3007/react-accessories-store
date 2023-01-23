@@ -217,11 +217,15 @@
     }
 
     .product-name {
-        font-size: 18px;
+        font-size: 15px;
+    }
+
+    .product-price {
+        font-size: 17px;
     }
 
     .product-one {
         width: 99%;
-        height: 335px;
+        height: 295px;
     }
 }

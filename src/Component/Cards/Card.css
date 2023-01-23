@@ -26,3 +26,9 @@
     color: #bc4c2a;
     font-size: 20px;
 }
+
+@media screen and (max-width: 480px) {
+    /* .product-card {
+        width: 50%;
+    } */
+}
